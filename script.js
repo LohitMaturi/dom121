@@ -24,4 +24,19 @@ document.addEventListener("DOMContentLoaded", function() {
             title.style.display = "none";
         }
     });
+    
+   let themeBtn = document.getElementById("themeBtn")
+
+themeBtn.addEventListener("click", function() {
+    if (document.body.style.backgroundColor === "yellow") {
+        document.body.style.backgroundColor = "white"
+        document.body.style.color = "yellow"
+        themeBtn.innerText = "Dark Mode"
+    } else {
+        document.body.style.backgroundColor = "yellow"
+        document.body.style.color = "white"
+        themeBtn.innerText = "Light Mode"
+    }
+});
+
 });

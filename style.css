@@ -12,3 +12,30 @@ button {
     margin: 10px;
     padding: 10px;
 }
+
+
+#themeBtn{
+    margin-top:15px;
+    background-colour:dark gray;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+.info-section {
+    margin-top: 30px;
+    text-align: left;
+    background: lightseagreen;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+}
